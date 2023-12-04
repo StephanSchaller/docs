@@ -123,7 +123,7 @@ Literature for capillary surface areas for the different organs and species is r
 2. **Blood flow.** The capillary surface area is estimated by ![Image](../assets/images/part-3/sa-k-organ.png)\
    , with the constant of proportionality k, the organ blood flow Qorgan, the shape factor beta (default: beta=1). The permeability-surface area product ![Image](../assets/images/part-3/psa.png) is related to the extraction E by ![Image](../assets/images/part-3/psa-e-organ.png) \[[8](../references.md#8)]. With the assumption that the extraction of drug in each organ is equal, ![Image](../assets/images/part-3/psa-organ.png) is obtained. If it is further assumed, that the permeability is equal for each organ one obtains ![Image](../assets/images/part-3/saq-org.png).
 
-#### Anatomy & Physiology‌
+### Anatomy & Physiology‌
 
 Anatomical and physiological properties in PK-Sim® are set at default values for a mean representative of a species. These default values were carefully selected from literature. In the human species module, also the mean values for children of all age groups are included. For some purposes, e.g. to simulate pathological disorders, it is desirable to change these values. This can be done in the **Anatomy & Physiology** tab, in which the parameters are, using the default settings, displayed in a tree structure on the left hand side.
 
@@ -181,7 +181,7 @@ Please note that when switching to another species on the Biometrics tab all par
 **User Defined** parameter node shows an overview of all parameters changed by the user in the individual.
 {% endhint %}
 
-#### Expression‌
+### Expression‌
 
 In the **Expression** tab, all relevant enzymes, transport proteins and protein binding partners can be defined for the selected individual.
 
