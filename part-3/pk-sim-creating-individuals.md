@@ -164,6 +164,8 @@ The background colors that indicate the different types of parameters (1.-3.) ca
 
 For some parameters, reasonable ranges are defined. For example pH values should be less than or equal to 14. In case a value outside this range is defined, a warning appears and the window cannot be closed without setting the parameters to a reasonable value.
 
+#### Liver Zonation
+
 The **Advanced** view offers the implementation of a zonated liver into an individual. Metabolic pathways in the liver are spatially separated along the liver sinusoids \[[29](../references.md#29)]. Splitting the liver into more than one zone will improve simulation accuracy. As shown below, the liver is not zonated per default (only periportal zone). Upon zonation, the liver is split into a periportal and a pericentral zone. The parameter **Fraction of periportal zone** defines the ratio of the zone volumes and the surface areas and is set to 50% per default.
 
 ![The Advanced view in the Anatomy/Physiology tab offers the use of a zonated
